@@ -29,6 +29,14 @@
      font-family: 'Heebo', sans-serif;
 }
 
+.flex-edit{
+
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+
     .one:after{
 
         animation-name: names;
