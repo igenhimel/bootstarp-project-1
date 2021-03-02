@@ -84,8 +84,8 @@
     }
 
     .circle {
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
         border-radius: 50%;
         border: 0.1px solid #d4d4d4;
         position: absolute;
