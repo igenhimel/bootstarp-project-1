@@ -20,6 +20,8 @@
 
 
 
+
+
 .section-title h2{
     font-family: 'Heebo', sans-serif;
     font-size: 40px;
@@ -66,7 +68,9 @@
         border: none;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
         border-radius: 15px;
-    }
+        height: 250px;
+        overflow: hidden; 
+    } 
 
 .cardshadow:hover h4{
     transform: scale(1.5);
