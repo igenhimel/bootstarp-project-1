@@ -177,13 +177,14 @@
     }
 
     .circle {
-        width: 330px;
-        height: 330px;
+        width: 360px;
+        height: 360px;
         border-radius: 50%;
         border: 0.1px solid #d4d4d4;
         position: absolute;
         z-index: 1;
-        top:12%;
+        left: 16%;
+        top:9%;
         animation:example 10s linear infinite;
    transform:rotate(0deg);
 
@@ -298,10 +299,21 @@
     .imgsec-1 {
         position: relative;
         z-index: 2;
+        left: 23%;
+        animation-name: updown;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        opacity: 0.8;;
+    }
+
+    .imgsec-2 {
+        position: relative;
+        z-index: 2;
         left: 6%;
         animation-name: updown;
         animation-duration: 3s;
         animation-iteration-count: infinite;
+        opacity: 0.8;;
     }
 
    .imgsec-4 {
@@ -359,6 +371,18 @@
         margin-bottom: 10px;
     }
 
+    .circle{
+        left: 19%;
+    }
+
+
+    }
+
+    @media screen and (max-width:768px){
+
+        .imgsec-1{
+            left: 26%;
+        }
 
     }
 
@@ -371,5 +395,10 @@
 
         .section-1 {
             border-radius: 0 0 20px 20px;
+        }
+
+        .imgsec-1{
+           
+          left: 14%;
         }
     }
