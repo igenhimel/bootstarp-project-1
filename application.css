@@ -114,7 +114,7 @@
 
         }
         25%{
-              content:", High Speed Server";
+              content:", High Speed";
 
         }
         50%{
@@ -306,6 +306,14 @@
         opacity: 0.8;;
     }
 
+    .imgsec-3{ 
+        animation-name: updown;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        opacity: 0.8;
+        
+    }
+
     .imgsec-2 {
         position: relative;
         z-index: 2;
@@ -397,8 +405,12 @@
             border-radius: 0 0 20px 20px;
         }
 
-        .imgsec-1{
-           
-          left: 14%;
+        .section-title h2{
+            font-size: 35px;
+
         }
+
+       
+       
+
     }
