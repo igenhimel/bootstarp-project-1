@@ -401,6 +401,10 @@
         margin-bottom: 10px;
     }
 
+    .nav-link::before{
+        width: 50%;
+    }
+
     .circle{
         left: 19%;
     }
