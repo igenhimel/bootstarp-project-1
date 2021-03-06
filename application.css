@@ -6,7 +6,30 @@
 
 
     }
+.client-img-bg{
+    width: 100px;
+    height: 100px;
+    background-color: #7857fe;
+    border-radius: 50%;
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
+.client-img-bg img{
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
 .flexedit{
 
@@ -19,6 +42,45 @@
     min-height: 80vh;
 }
 
+.client-section{
+
+    min-height: 80vh;
+
+} 
+
+.carouselfix{
+    min-height: 60vh;
+
+}
+
+.carouselfix .card{
+    border-radius: 10px;
+
+}
+.quote{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #7857fe;
+    top:36px;
+    left: 80px; 
+    
+}
+
+.quote i{
+    position: absolute;
+    top:8px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.carouselfix p{
+    font-size: 18px;
+
+}
  
 .section-5{
     background-image: url("image/download-app-bg.jpg");
