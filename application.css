@@ -447,6 +447,27 @@ cursor: pointer;
        
     }
 
+    .accordion-header{
+        position: relative;
+    }
+
+    .accordion-header::before{
+        content: '\2212';
+        position: absolute;
+        left:93%;
+        font-size: 25px;
+        background: #d4d4d4;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        }
+
+.accordion-header.collapsed::before{
+            content: '\002B';
+
+        }
+
 
     @keyframes updown {
         0%,100% {
@@ -534,6 +555,9 @@ cursor: pointer;
         .imgsec-1{
             left: 26%;
         }
+        .accordion-header::before{
+            left: 85%;
+        }
 
     }
 
@@ -552,8 +576,6 @@ cursor: pointer;
             font-size: 35px;
 
         }
-
-       
-       
-
+      
+     
     }
