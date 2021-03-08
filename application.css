@@ -443,17 +443,10 @@ cursor: pointer;
   .query .accordion-header:not(.collapsed){
         background-color: #7857fe;
         box-shadow: none;
-
-       
-    }
-
-
-
-    .query .accordion-header:not(.collapsed) h3{
         color: white;
-    
        
     }
+
 
     @keyframes updown {
         0%,100% {
