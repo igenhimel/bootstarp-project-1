@@ -66,6 +66,35 @@
     top:36px;
     left: 80px; 
     
+} 
+
+.pricing-plan ul li{
+    border-bottom:0.1px solid #d4d4d4;
+}
+
+.pricing-plan ul li:last-child{
+    border:0px;
+}
+
+
+.teamcarousel{
+    min-height: 90vh;
+}
+
+
+.pricing-plan-section{
+    min-height: 90vh;
+} 
+
+.btn-plan{
+    border-radius:50px;
+}
+
+.pricingshadow{
+    border: 0px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .quote i{
@@ -151,7 +180,13 @@
  
 
 }
-    
+  .light{
+      font-size: 15px;
+  } 
+  
+  .him{
+      box-sizing: border-box;
+  }
 
 .section-title h2{
     font-family: 'Heebo', sans-serif;
@@ -160,8 +195,12 @@
 
 .section-3-number{
      font-family: 'Heebo', sans-serif;
-}
+} 
 
+.section-3-number-2{
+    font-family: 'Heebo', sans-serif;
+    font-size: 70px;
+} 
     .one:after{
 
         animation-name: names;
