@@ -444,13 +444,79 @@ cursor: pointer;
         background-color: #7857fe;
         box-shadow: none;
         color: white;
+        margin:0px;
+        border-radius: 0px;
        
     }
 
     .accordion-header{
         position: relative;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        transition: 0.4s ease;
+        border-radius: 5px;
     }
 
+    .get-in-touch input{
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        border: none;
+    }
+
+    .get-in-touch textarea{
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        border: none; 
+        height: 8rem;
+    padding-top: 1.2rem;
+    resize: none;
+    box-sizing: border-box;
+    }
+
+    .items-accordion{
+        margin-bottom: 100px;
+    }
+
+
+    .footer{
+        background-color: #7857fe;
+        color: white;
+    }
+
+    .footer hr{
+    border-bottom: 0.1px solid white;
+    opacity: 0.3;
+    }
+
+
+    .touchicon{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid dodgerblue;
+    }
+
+    .touchicon i{
+        position: absolute;
+        color: dodgerblue;
+        top:11px;
+        left: 10px;
+    }
+
+    .msgbtn{
+        border-radius: 80px;
+        padding: 10px;
+    }
+
+    .msgbtn:hover{
+       background-color: mintcream;
+       color: black;
+       box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+       border:1px solid white;
+    }
+
+  
     .accordion-header::before{
         content: '\2212';
         position: absolute;
