@@ -296,12 +296,14 @@
     border: none;
     box-shadow: none;
     animation: pulse 2s ease infinite;
+    
 
 }
 
 .btn-download{
        border: none;
     box-shadow: none;
+    padding: 10px;
 
 }
 
@@ -463,11 +465,18 @@ cursor: pointer;
         border: none;
     }
 
+     .get-in-touch input::placeholder,textarea::placeholder{
+
+       font-size: 16px;
+       font-weight: 600;
+
+     }
+         
     .get-in-touch textarea{
         box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
         border: none; 
-        height: 8rem;
+        height: 9rem;
     padding-top: 1.2rem;
     resize: none;
     box-sizing: border-box;
@@ -475,6 +484,16 @@ cursor: pointer;
 
     .items-accordion{
         margin-bottom: 100px;
+    }
+
+    .footer ul li{
+        font-size: 18px;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    .footer ul li:hover{
+        margin-left: 10px;
     }
     
 
