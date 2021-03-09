@@ -653,7 +653,7 @@ cursor: pointer;
             left: 85%;
         }
 
-    }
+    } 
 
     @media screen and (max-width:576px) {
         .justify {
