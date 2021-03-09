@@ -411,10 +411,13 @@
     }
 
     .imgsec-3{ 
+        position: relative;
+        z-index: 2;
         animation-name: updown;
         animation-duration: 3s;
         animation-iteration-count: infinite;
         opacity: 0.8;
+        width: 250px;
         
     }
 
@@ -608,6 +611,10 @@ cursor: pointer;
     #7857fe;
  }
 
+ .home-menu{
+     overflow: hidden;
+ }
+
    
 
     @media screen and (max-width:992px){
@@ -663,6 +670,21 @@ cursor: pointer;
             font-size: 35px;
 
         }
-      
+
+        .circle{
+            left: 0;
+            right:0;
+            top:0;
+            bottom: 0;
+            margin: auto;
+            width: 330px;
+            height: 330px;
+        }
+
+        .paddings3{
+           padding-left: 10px;
+        }
+
+  
      
     }
