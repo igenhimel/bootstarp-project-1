@@ -38,9 +38,7 @@
 
 }
 
-.section-2{
-    min-height: 80vh;
-}
+
 
 .client-section{
 
@@ -53,9 +51,29 @@
 
 }
 
+.section-2 .owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height: 5px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius:0px;
+    background-color:gainsboro;
+}
+
+.section-2 .owl-theme .owl-dots .owl-dot.active span{
+    background-color: deepskyblue;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span{
+    background-color: firebrick;
+}
+
+
 .carouselfix .card{
     border-radius: 10px;
-
+  transition: ;
 }
 .quote{
     position: relative;
