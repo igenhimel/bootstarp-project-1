@@ -116,11 +116,15 @@
 .section-4 .owl-theme .owl-dots .owl-dot.active span{
     background-color: deepskyblue;
 }
+
 .section-4 .owl-theme .owl-dots .owl-dot:hover span{
     background-color: deepskyblue;
 }
 
-
+.section-4 .owl-theme .owl-dots .owl-dot:focus span{
+    outline: none;
+    box-shadow: none;
+}
 
 
 .carouselfix .card{
