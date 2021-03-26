@@ -89,10 +89,6 @@
     background-color: #e91e63;
 }
 
-.what-our-client-say .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #e91e63;
-}
-
 
 
 
@@ -100,9 +96,6 @@
     background-color: deepskyblue;
 }
 
-.section-2 .owl-theme .owl-dots .owl-dot:hover span{
-    background-color: deepskyblue;
-}
 
 .section-4 .owl-theme .owl-dots .owl-dot span {
     width: 30px;
@@ -112,20 +105,24 @@
     transition: opacity .2s ease;
     border-radius:0px;
     background-color:gainsboro;
+    color:gainsboro;
+   
 }
+
+
 .section-4 .owl-theme .owl-dots .owl-dot.active span{
     background-color: deepskyblue;
 }
 
-.section-4 .owl-theme .owl-dots .owl-dot:hover span{
-    background-color: deepskyblue;
-}
-
-.section-4 .owl-theme .owl-dots .owl-dot:focus span{
-    outline: none;
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none !important;
     box-shadow: none;
-}
+  }
 
+  .owl-dot:focus, .owl-dot:active {
+    outline: none !important;
+    box-shadow: none;
+  }
 
 .carouselfix .card{
     border-radius: 10px;
