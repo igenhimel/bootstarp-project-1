@@ -1,18 +1,3 @@
-from django.db import models
-
-
-class PageScore(models.Model):
-    url = models.TextField(max_length=200, unique=True)
-    first_contentful_paint = models.FloatField(null=True)
-    largest_contentful_paint = models.FloatField(null=True)
-    total_blocking_time = models.FloatField(null=True)
-    seo_score = models.PositiveIntegerField(null=True)
-    best_practice_score = models.PositiveIntegerField(null=True)
-    accessibility_score = models.PositiveIntegerField(null=True)
-    performance_score = models.PositiveIntegerField(null=True)
-    timestamp = models.DateTimeField(auto_now_add=True)
-
-
 from django.shortcuts import render
 from .forms import URLForm
 from .models import PageScore
